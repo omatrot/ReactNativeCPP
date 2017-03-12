@@ -235,6 +235,41 @@
 			remoteGlobalIDString = DB057ED91E759F9D0003EFC4;
 			remoteInfo = RNCPP;
 		};
+		DBED67D41E75D02A00B169A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBED67CA1E75D02A00B169A5 /* librncpp.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = CA5B47E9D648F21BD240537E;
+			remoteInfo = librncpp_jni;
+		};
+		DBED67D61E75D02A00B169A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBED67CA1E75D02A00B169A5 /* librncpp.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 30B9A32EEA19DD5E1836D757;
+			remoteInfo = librncpp_objc;
+		};
+		DBED67F61E75D02A00B169A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBED67CE1E75D02A00B169A5 /* support_lib.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DC658C749F521B13A5BDCBBC;
+			remoteInfo = djinni_jni;
+		};
+		DBED67F81E75D02A00B169A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBED67CE1E75D02A00B169A5 /* support_lib.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 830C2426AC54ADA0794D7413;
+			remoteInfo = djinni_jni_main;
+		};
+		DBED67FA1E75D02A00B169A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBED67CE1E75D02A00B169A5 /* support_lib.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 0C99AA4F95316AA552A79C55;
+			remoteInfo = djinni_objc;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -263,6 +298,8 @@
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
 		DBED679D1E75C38D00B169A5 /* RNCPP.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RNCPP.xcodeproj; path = RNCPP/RNCPP.xcodeproj; sourceTree = "<group>"; };
+		DBED67CA1E75D02A00B169A5 /* librncpp.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = librncpp.xcodeproj; path = src/lib/librncpp.xcodeproj; sourceTree = "<group>"; };
+		DBED67CE1E75D02A00B169A5 /* support_lib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = support_lib.xcodeproj; path = "src/third_party/djinni/support-lib/support_lib.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -444,6 +481,8 @@
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
+				DBED67CA1E75D02A00B169A5 /* librncpp.xcodeproj */,
+				DBED67CE1E75D02A00B169A5 /* support_lib.xcodeproj */,
 				DBED679D1E75C38D00B169A5 /* RNCPP.xcodeproj */,
 				5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */,
 				146833FF1AC3E56700842450 /* React.xcodeproj */,
@@ -496,6 +535,25 @@
 			isa = PBXGroup;
 			children = (
 				DBED67A21E75C38D00B169A5 /* RNCPP */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DBED67CB1E75D02A00B169A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DBED67D51E75D02A00B169A5 /* librncpp_jni.dylib */,
+				DBED67D71E75D02A00B169A5 /* librncpp_objc.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DBED67CF1E75D02A00B169A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DBED67F71E75D02A00B169A5 /* libdjinni_jni.a */,
+				DBED67F91E75D02A00B169A5 /* libdjinni_jni_main.a */,
+				DBED67FB1E75D02A00B169A5 /* libdjinni_objc.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -616,6 +674,10 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
+					ProductGroup = DBED67CB1E75D02A00B169A5 /* Products */;
+					ProjectRef = DBED67CA1E75D02A00B169A5 /* librncpp.xcodeproj */;
+				},
+				{
 					ProductGroup = 00C302A81ABCB8CE00DB3ED1 /* Products */;
 					ProjectRef = 00C302A71ABCB8CE00DB3ED1 /* RCTActionSheet.xcodeproj */;
 				},
@@ -662,6 +724,10 @@
 				{
 					ProductGroup = DBED679E1E75C38D00B169A5 /* Products */;
 					ProjectRef = DBED679D1E75C38D00B169A5 /* RNCPP.xcodeproj */;
+				},
+				{
+					ProductGroup = DBED67CF1E75D02A00B169A5 /* Products */;
+					ProjectRef = DBED67CE1E75D02A00B169A5 /* support_lib.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -855,6 +921,41 @@
 			fileType = "compiled.mach-o.executable";
 			path = RNCPP;
 			remoteRef = DBED67A11E75C38D00B169A5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DBED67D51E75D02A00B169A5 /* librncpp_jni.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = librncpp_jni.dylib;
+			remoteRef = DBED67D41E75D02A00B169A5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DBED67D71E75D02A00B169A5 /* librncpp_objc.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = librncpp_objc.a;
+			remoteRef = DBED67D61E75D02A00B169A5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DBED67F71E75D02A00B169A5 /* libdjinni_jni.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libdjinni_jni.a;
+			remoteRef = DBED67F61E75D02A00B169A5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DBED67F91E75D02A00B169A5 /* libdjinni_jni_main.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libdjinni_jni_main.a;
+			remoteRef = DBED67F81E75D02A00B169A5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DBED67FB1E75D02A00B169A5 /* libdjinni_objc.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libdjinni_objc.a;
+			remoteRef = DBED67FA1E75D02A00B169A5 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */

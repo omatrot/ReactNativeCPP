@@ -1,0 +1,1118 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		695242E26AE8951E268DB46C /* All */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 2F2D125F32545A491B42F1E0 /* Build configuration list for PBXAggregateTarget "All" */;
+			buildPhases = (
+			);
+			dependencies = (
+				1C30C246AC5947898E285B38 /* PBXTargetDependency */,
+				E0A0916268F225785129EE8B /* PBXTargetDependency */,
+			);
+			name = All;
+			productName = All;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		014970028E7E5342EF80B58D /* NativeUsesSingleLanguageListeners.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F417304DC4408A9A040AA96 /* NativeUsesSingleLanguageListeners.cpp */; };
+		06540C37603ABA8FB51450AC /* NativeClientInterface.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAC9EB03035E7BFEF2CC9470 /* NativeClientInterface.cpp */; };
+		07060825B31CBD82F51155E0 /* NativeUsesSingleLanguageListeners.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F417304DC4408A9A040AA96 /* NativeUsesSingleLanguageListeners.cpp */; };
+		0738F8DDF51A129C7CB7E26E /* custom_exception_type.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D2D48A068A27AF272F42A62C /* custom_exception_type.cpp */; };
+		0A53748DB0243E16193240D0 /* NativeMapListRecord.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D49E5DFE61ACBDAEEAC8AA08 /* NativeMapListRecord.cpp */; };
+		0BFB03F2824A657062101367 /* NativeObjcOnlyListener.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8F32B01C4BDBDF6B6BC0166 /* NativeObjcOnlyListener.cpp */; };
+		0C23CF9BA9D7D84916421D91 /* NativeConflict.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC9773BEB776B0AF4073078F /* NativeConflict.cpp */; };
+		0CA3D39DE317BC03ADC97125 /* NativeDateRecord.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D4729EC92ACEBEB80937E297 /* NativeDateRecord.cpp */; };
+		107BA97701CCBAB110DB58E4 /* NativeVarnameRecord.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9545C87D43A0406A7F9ECA5D /* NativeVarnameRecord.cpp */; };
+		144962A8574EECCDC7BCBA23 /* hello.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CF23BE4D865A4201EAF4171A /* hello.cpp */; };
+		14B75C2B9F13E861EF2699BE /* NativeWcharTestRec.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2DA5583A31477E1288A86911 /* NativeWcharTestRec.cpp */; };
+		1D7204EB81F9263AF0F0E2D8 /* libdjinni_jni.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E1F540B66710E0C46766F69 /* libdjinni_jni.a */; };
+		1E531109178601D6B3D8F3F5 /* cppfile_withcflags.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 81B35B4C2075F327CAE4795F /* cppfile_withcflags.cpp */; };
+		1FE8DF736EDA996B2D3291BC /* constants.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B9E888754828118076371CE8 /* constants.cpp */; };
+		2226EF92E5C49DA5DAFF5C12 /* NativeExternRecordWithDerivings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B221E21B8E7F3048C81E0DAF /* NativeExternRecordWithDerivings.cpp */; };
+		22505594220D92D711AF963E /* test_helpers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6733C0F942EC15DD59537325 /* test_helpers.cpp */; };
+		26077B364DBB6A4A144B5316 /* NativeSetRecord.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F17873D8AAD55C5FA1B90540 /* NativeSetRecord.cpp */; };
+		2728105603632659B6970200 /* record_with_nested_derivings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85EBCFB86DC3EBF559E1216D /* record_with_nested_derivings.cpp */; };
+		2740291E1B75AC67BC5248C7 /* NativeRecordWithNestedDerivings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6518BCFD03B58276F2E737D6 /* NativeRecordWithNestedDerivings.cpp */; };
+		276E165972580597B872E97D /* hello.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7BCAFFBBE0AF410470A60B37 /* hello.cpp */; };
+		27AD30843C758B520B694868 /* record_with_nested_derivings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85EBCFB86DC3EBF559E1216D /* record_with_nested_derivings.cpp */; };
+		29C7DC8FFD2B72E26964890B /* NativeClientReturnedRecord.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B5F88F575F5E16E700AF8D1D /* NativeClientReturnedRecord.cpp */; };
+		2AF9F961B7D3710B626A5C41 /* NativeCppException.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B9D574CC02F66CF813EEB19 /* NativeCppException.cpp */; };
+		2DBFD8F16511487A70411B0F /* NativeConflictUser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07999600983ADCC617B92F12 /* NativeConflictUser.cpp */; };
+		307ED3C4C585BC3BC2F99D0F /* NativeListenerCaller.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2DE55EACE0E9C1720F8DD2C6 /* NativeListenerCaller.cpp */; };
+		342657C5FA0D2CB708762AA0 /* djinni_main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C5F6F405B0DC7DC41077C89F /* djinni_main.cpp */; };
+		34B01D310A4473C3493C0D05 /* NativeExternInterface2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CC01891F3E285FE093F5273C /* NativeExternInterface2.cpp */; };
+		34ECC37F8697A00CF24F0F71 /* hello_world_impl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 79BD59BF15FED019A537FC51 /* hello_world_impl.cpp */; };
+		3920F159DFD3AB78B3CC9950 /* NativeTextboxListener.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9C00E06CF7EA544BB012DFD3 /* NativeTextboxListener.cpp */; };
+		3BC5F5DE33992D532E61E97B /* cpp_exception_impl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C31F7F25C09506A610E6BF1B /* cpp_exception_impl.cpp */; };
+		3DA46F0381CB4CF862A0ADBA /* NativeSetRecord.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F17873D8AAD55C5FA1B90540 /* NativeSetRecord.cpp */; };
+		3DD6FF9822BCF6C288D9F4F8 /* NativeInterfaceUsingExtendedRecord.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2C4871FB91CD42066837A403 /* NativeInterfaceUsingExtendedRecord.cpp */; };
+		4071863D6EF9FDF9525E603C /* date_record.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA51FC8B1EB150AD03173FA9 /* date_record.cpp */; };
+		4111C224EFCF84D91AA6CA8B /* djinni_main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C5F6F405B0DC7DC41077C89F /* djinni_main.cpp */; };
+		42B3B5419112C5B53409660B /* lib1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AFFD0FB2BEC50C4EF9994144 /* lib1.cpp */; };
+		42F38946BAB229FC3115C281 /* NativeUserToken.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF1D7BAB44F1F56FCD2120E7 /* NativeUserToken.cpp */; };
+		432DEBDBC87C05A21F52AC69 /* record_with_duration_and_derivings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 62D6524EA2395B1BBE35EA54 /* record_with_duration_and_derivings.cpp */; };
+		441A01382836CE4AAE2D4313 /* extended_record.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15F966EFEF0A5DAEA00790CE /* extended_record.cpp */; };
+		4843FBFBEC069F67C0F852FF /* extended_record_base.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E5FBA7D7661C998D2DA21917 /* extended_record_base.cpp */; };
+		48B7E073A60097F2CFC33763 /* NativeReturnOne.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 103A43FF8225A4390AA3CB30 /* NativeReturnOne.cpp */; };
+		4ABC4137CB34A8791CE16F6F /* test_helpers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6733C0F942EC15DD59537325 /* test_helpers.cpp */; };
+		4CC0775FB629D4F2B7F9B57F /* NativeVarnameRecord.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9545C87D43A0406A7F9ECA5D /* NativeVarnameRecord.cpp */; };
+		4DBC3068A15369957483F38A /* NativeMapRecord.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A33BECDC643A72D9891DCCA4 /* NativeMapRecord.cpp */; };
+		4FD3A2D355E4000272238498 /* NativeJavaOnlyListener.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6E5DE6BB5483CD859700FE1 /* NativeJavaOnlyListener.cpp */; };
+		4FF05D2618EB38B5C17A854C /* record_using_extended_record.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F7DF407E53162E2340ABDE01 /* record_using_extended_record.cpp */; };
+		5244A13C3A6AD4C88AD0F6C0 /* extern_record_with_derivings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 571DDFC33866E5DF7707B4D1 /* extern_record_with_derivings.cpp */; };
+		5265EC575EF74DD04E030FDF /* NativeNestedCollection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5C02363C9F5EF2B32AD58C5 /* NativeNestedCollection.cpp */; };
+		553E1EE22FF6D04CA8FC4E0D /* NativeExternRecordWithDerivings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B221E21B8E7F3048C81E0DAF /* NativeExternRecordWithDerivings.cpp */; };
+		55671CA63D0B026D85938A39 /* RNCPP_HelloWorld+Private.mm in Sources */ = {isa = PBXBuildFile; fileRef = F2E2F15C02EB0CC42661E7D6 /* RNCPP_HelloWorld+Private.mm */; };
+		55D7A8A3BC3C77C3CB8980CB /* NativeVarnameInterface.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 94BAA0644AD29D3E4EE91ECC /* NativeVarnameInterface.cpp */; };
+		5738CA817C72C64B2A08EA3C /* return_one_two.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44E9037297853CB8DB8F2C51 /* return_one_two.cpp */; };
+		5A66F9E088E3199725596D3A /* NativeExtendedRecord.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BBC4475DE163952E5752C15 /* NativeExtendedRecord.cpp */; };
+		5BC3ABD148B71B9552E370BB /* NativeTestDuration.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D13C74B10E839CC9BB82E0A8 /* NativeTestDuration.cpp */; };
+		5BFCE8BA63C11D5DBBA387F5 /* assorted_primitives.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 98602511A94A4A1EE18D6260 /* assorted_primitives.cpp */; };
+		5C4752C15748B6DE4C5E61E5 /* constants_interface.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8895974F31857AF27BA58D1D /* constants_interface.cpp */; };
+		5D1D8809316C6B698FD86760 /* NativeEnumUsageInterface.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D0F6F2E477974065D9AEE676 /* NativeEnumUsageInterface.cpp */; };
+		5E888925EE0DCC8343FA4AD4 /* ListenerCaller.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 30F6496F2A53FEBFC46181C6 /* ListenerCaller.cpp */; };
+		6251E068E10AA2655DDCFD3F /* reverse_client_interface_impl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 50E665CA114453E7F4162AE4 /* reverse_client_interface_impl.cpp */; };
+		6496ABAA3EBBA67480DE4853 /* NativeRecordWithDerivings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7F4FA4D683984E794F140AC /* NativeRecordWithDerivings.cpp */; };
+		657E6C447BB9A31DE74943AF /* TranslateDuration.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D82DFA96DF48201D76CD9EEC /* TranslateDuration.cpp */; };
+		681166C5786FC5C51FEEFA76 /* NativeConstantRecord.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6DC26BDD06BFDF9E2B5E039E /* NativeConstantRecord.cpp */; };
+		693F55FB0B971D536157A650 /* NativeRecordUsingExtendedRecord.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DF5A4CAAC9680B80404BEDEA /* NativeRecordUsingExtendedRecord.cpp */; };
+		694E7C1BE339F3A866987C97 /* NativeReturnTwo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E340C29BE9EF35619F9CFCF0 /* NativeReturnTwo.cpp */; };
+		6FAB3E901B397A21D54EAB9C /* NativeNestedCollection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5C02363C9F5EF2B32AD58C5 /* NativeNestedCollection.cpp */; };
+		704F50E3FFB1B823F232F425 /* NativeEnumUsageRecord.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 82A393E3AA6FB24B8B6119A4 /* NativeEnumUsageRecord.cpp */; };
+		711B8B42D03840A1FB346AF6 /* NativeEmptyRecord.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C95E6C12C8709EBE7C757A3F /* NativeEmptyRecord.cpp */; };
+		7807B0D7151E63222A633123 /* NativeItemList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C13B9A7A20F91F8EB348CFE5 /* NativeItemList.cpp */; };
+		7BBF58EB8B2DEE4CA6086DE8 /* NativeRecordWithDurationAndDerivings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7C39084978F844780521BF66 /* NativeRecordWithDurationAndDerivings.cpp */; };
+		7C0A440BDB40454C54B2B9FB /* interface_using_extended_record.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89ED4A8FEE92E9362BA40B86 /* interface_using_extended_record.cpp */; };
+		7EE230FB55E8CCC288C53030 /* reverse_client_interface_impl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 50E665CA114453E7F4162AE4 /* reverse_client_interface_impl.cpp */; };
+		7EF09CFDB60527B59130DF60 /* TranslateDuration.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D82DFA96DF48201D76CD9EEC /* TranslateDuration.cpp */; };
+		7F7320ECE26B487EB92B9070 /* hello_mac.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C5AA3B119114886A5F9041B /* hello_mac.cpp */; };
+		813378733043E4F53CD9C985 /* NativeWcharTestHelpers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9C9387F4AC1845C0FC007FC8 /* NativeWcharTestHelpers.cpp */; };
+		813F4EB2FB1E2544EF41C44F /* NativeConflict.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC9773BEB776B0AF4073078F /* NativeConflict.cpp */; };
+		81852DF9911A69D37B3E4020 /* NativePrimitiveList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D6BFCBA7315435BCC9706EDB /* NativePrimitiveList.cpp */; };
+		81ED2B18F3622779F9B9382F /* NativeListenerCaller.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2DE55EACE0E9C1720F8DD2C6 /* NativeListenerCaller.cpp */; };
+		82AA0C0B6510DFD3339E36B6 /* constants_interface.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8895974F31857AF27BA58D1D /* constants_interface.cpp */; };
+		859071E80851241B3EA7A363 /* NativeRecordWithDerivings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7F4FA4D683984E794F140AC /* NativeRecordWithDerivings.cpp */; };
+		864C1388B333F02BB8DD9E9F /* NativeRecordWithDurationAndDerivings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7C39084978F844780521BF66 /* NativeRecordWithDurationAndDerivings.cpp */; };
+		8693C3BC3960DDFF1A4F1814 /* cppfile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4441737BBC6853EA5B06486F /* cppfile.cpp */; };
+		879F00B1E3402CE362713DEE /* NativeMapDateRecord.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6332EE054288CF2661E0AE48 /* NativeMapDateRecord.cpp */; };
+		88DA77E0B91D5483F6AF792F /* sort_items_impl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CA3EA5F88667ADA968C415A5 /* sort_items_impl.cpp */; };
+		89123A2291E8FA62DF0E81E3 /* NativeItemList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C13B9A7A20F91F8EB348CFE5 /* NativeItemList.cpp */; };
+		898705CE89C7C22FCC54C485 /* NativeExternInterface2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CC01891F3E285FE093F5273C /* NativeExternInterface2.cpp */; };
+		8A285D046222C93373A73FEA /* NativeHelloWorld.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 73C71648BFB2E323276E53FB /* NativeHelloWorld.cpp */; };
+		8B8314AC8FDF5B9035586297 /* NativeExternInterface1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 227F3B6FC927E06792006AB0 /* NativeExternInterface1.cpp */; };
+		8D53EA43155FF4404DF7AB46 /* assorted_primitives.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 98602511A94A4A1EE18D6260 /* assorted_primitives.cpp */; };
+		906584FBEB440ACE4C4DDF46 /* lib1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AFFD0FB2BEC50C4EF9994144 /* lib1.cpp */; };
+		95A672219F4A86DF17683900 /* NativeMapDateRecord.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6332EE054288CF2661E0AE48 /* NativeMapDateRecord.cpp */; };
+		96067A3552BEBE74646436DE /* hello.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 959DB447B8293CD8F9F7B6E4 /* hello.cpp */; };
+		965F46617A0B92DBC774A076 /* NativeExtendedRecord.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BBC4475DE163952E5752C15 /* NativeExtendedRecord.cpp */; };
+		96FA9354A9E2139A2F26F81E /* NativeExternInterface1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 227F3B6FC927E06792006AB0 /* NativeExternInterface1.cpp */; };
+		978AABDE6B0A191E76C9506C /* wchar_test_helpers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DB2FC0F79D1448F912F88B4E /* wchar_test_helpers.cpp */; };
+		9861C064C8A4553AC0BDE0CC /* NativeSortItems.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 60C0F2E7196C5137AA858FBA /* NativeSortItems.cpp */; };
+		996BF5BC8AFF90E7E214D36E /* extended_record_base.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E5FBA7D7661C998D2DA21917 /* extended_record_base.cpp */; };
+		9A2BF56266670AEF85F2F743 /* custom_exception_type.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D2D48A068A27AF272F42A62C /* custom_exception_type.cpp */; };
+		9BEB381A95EFB7998DB91E57 /* NativeAssortedPrimitives.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 96AD349FF8225E5D7B712122 /* NativeAssortedPrimitives.cpp */; };
+		9CBEA6093CA89DC9562E5DB8 /* constants.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B9E888754828118076371CE8 /* constants.cpp */; };
+		9DA59ACCC70802EB0AB17509 /* record_with_derivings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FFCB609E19EC5C677F082E65 /* record_with_derivings.cpp */; };
+		9ECDFFC0724AAD430A04FB37 /* ListenerCaller.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 30F6496F2A53FEBFC46181C6 /* ListenerCaller.cpp */; };
+		9F4AA02724D0253B67A44018 /* record_with_derivings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FFCB609E19EC5C677F082E65 /* record_with_derivings.cpp */; };
+		A1B366276423F006244576D3 /* NativeConflictUser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07999600983ADCC617B92F12 /* NativeConflictUser.cpp */; };
+		A236EAEAB7649880090A3321 /* NativeTestHelpers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF52830BD544C42E7E5C07FD /* NativeTestHelpers.cpp */; };
+		A2A13805FC2C8BBCDCD7AFD0 /* NativeRecordUsingExtendedRecord.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DF5A4CAAC9680B80404BEDEA /* NativeRecordUsingExtendedRecord.cpp */; };
+		A4591CAB7E331259F307DCBD /* NativeReturnTwo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E340C29BE9EF35619F9CFCF0 /* NativeReturnTwo.cpp */; };
+		A5E3FDCE8CAC141E350D869D /* NativeSecondListener.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 58BDF377F7137E70A3E51D88 /* NativeSecondListener.cpp */; };
+		A72085281D0B8D522670202D /* hello.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CF23BE4D865A4201EAF4171A /* hello.cpp */; };
+		A84136EA29DCC273FCF1835E /* NativeRecordWithNestedDerivings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6518BCFD03B58276F2E737D6 /* NativeRecordWithNestedDerivings.cpp */; };
+		ABD488DA694186CB2386BE78 /* NativeConstantRecord.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6DC26BDD06BFDF9E2B5E039E /* NativeConstantRecord.cpp */; };
+		ABEFF82E359F62DD5A35B751 /* date_record.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA51FC8B1EB150AD03173FA9 /* date_record.cpp */; };
+		AC3CC3D83A08AC84591D3EB5 /* hello.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7BCAFFBBE0AF410470A60B37 /* hello.cpp */; };
+		AE04E99F50BFF4CC1CB9308F /* NativeDateRecord.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D4729EC92ACEBEB80937E297 /* NativeDateRecord.cpp */; };
+		B1DF04A875912F2A45184AD0 /* program.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 378D1C98471F6E22A644DDA0 /* program.cpp */; };
+		B4858C67635C593AB7799724 /* djinni_support.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A8D5A94CA8F42BD64A581BE /* djinni_support.cpp */; };
+		B54DFDC577373B6908A8B319 /* NativeConstantsInterface.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9D9136F67BFEC310FA0A3B2C /* NativeConstantsInterface.cpp */; };
+		B5725BE94EAB071FA860AB3F /* NativeCppException.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B9D574CC02F66CF813EEB19 /* NativeCppException.cpp */; };
+		B7C009A04BE1BF7BF8715DA9 /* record_using_extended_record.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F7DF407E53162E2340ABDE01 /* record_using_extended_record.cpp */; };
+		B8643C76AB85A6AFD7A7EEF1 /* NativePrimitiveList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D6BFCBA7315435BCC9706EDB /* NativePrimitiveList.cpp */; };
+		B87AAB5C13360249BB76813C /* NativeConstantsInterface.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9D9136F67BFEC310FA0A3B2C /* NativeConstantsInterface.cpp */; };
+		B965E0A90B415982D14C3564 /* NativeMapRecord.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A33BECDC643A72D9891DCCA4 /* NativeMapRecord.cpp */; };
+		B971ED6160C276D9B91AA993 /* NativeAssortedPrimitives.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 96AD349FF8225E5D7B712122 /* NativeAssortedPrimitives.cpp */; };
+		BA4717BC47866803CE611606 /* NativeVarnameInterface.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 94BAA0644AD29D3E4EE91ECC /* NativeVarnameInterface.cpp */; };
+		BB42DBDC46A4DA276CB16D9A /* NativeMapListRecord.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D49E5DFE61ACBDAEEAC8AA08 /* NativeMapListRecord.cpp */; };
+		BB635ED6DC4F8DBCC64CBDAD /* extern_record_with_derivings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 571DDFC33866E5DF7707B4D1 /* extern_record_with_derivings.cpp */; };
+		BBE0DAC6F827C988266A0542 /* extended_record.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15F966EFEF0A5DAEA00790CE /* extended_record.cpp */; };
+		BCF47B5D54925236019C38F5 /* NativeSortItems.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 60C0F2E7196C5137AA858FBA /* NativeSortItems.cpp */; };
+		BD2B1EBA5A6E50F21D8EEDEC /* NativeJavaOnlyListener.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6E5DE6BB5483CD859700FE1 /* NativeJavaOnlyListener.cpp */; };
+		BE6B81B249F32EBB4923B512 /* NativeEmptyRecord.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C95E6C12C8709EBE7C757A3F /* NativeEmptyRecord.cpp */; };
+		C004D76679793E7951FDC4BA /* NativeReverseClientInterface.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24CC7648CB325A8E8706C42B /* NativeReverseClientInterface.cpp */; };
+		C094EC226C047A9593C27638 /* cppfile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4441737BBC6853EA5B06486F /* cppfile.cpp */; };
+		C10CB5569B8A5F39196FB89E /* record_with_duration_and_derivings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 62D6524EA2395B1BBE35EA54 /* record_with_duration_and_derivings.cpp */; };
+		C66DD8A5ABA8608534A8E6F7 /* NativeTextboxListener.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9C00E06CF7EA544BB012DFD3 /* NativeTextboxListener.cpp */; };
+		C7E8DE10504249E66882D6B9 /* cppfile_withcflags.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 81B35B4C2075F327CAE4795F /* cppfile_withcflags.cpp */; };
+		C89EC6639B54C338F52422B6 /* sort_items_impl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CA3EA5F88667ADA968C415A5 /* sort_items_impl.cpp */; };
+		CB0A3622172BFD8881AD2F0B /* NativeClientInterface.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAC9EB03035E7BFEF2CC9470 /* NativeClientInterface.cpp */; };
+		CBC9817EDD752136F7B5FC46 /* interface_using_extended_record.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89ED4A8FEE92E9362BA40B86 /* interface_using_extended_record.cpp */; };
+		CC369943268B06F471ADE5FA /* program.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 378D1C98471F6E22A644DDA0 /* program.cpp */; };
+		CCB630C2FC5DE59DE4ADFA1A /* NativeConstants.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2E40BFB4EC8D58C99FA7CA1C /* NativeConstants.cpp */; };
+		CE8E3BEC9FFF787DD4E589CC /* NativeSecondListener.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 58BDF377F7137E70A3E51D88 /* NativeSecondListener.cpp */; };
+		CF31238F1A01919245A9DE6A /* NativeTestDuration.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D13C74B10E839CC9BB82E0A8 /* NativeTestDuration.cpp */; };
+		D10C74F7E7D5FBDABB22BEC0 /* cpp_exception_impl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C31F7F25C09506A610E6BF1B /* cpp_exception_impl.cpp */; };
+		D220E9623F6F7B32EA58CEF1 /* djinni_support.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A8D5A94CA8F42BD64A581BE /* djinni_support.cpp */; };
+		D36247BECCC4DA552C684947 /* hello_mac.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C5AA3B119114886A5F9041B /* hello_mac.cpp */; };
+		D51841CF2121BFDE004ABB4F /* NativeUserToken.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF1D7BAB44F1F56FCD2120E7 /* NativeUserToken.cpp */; };
+		D6CA55EB5DFCD54BD78B56F1 /* NativeReverseClientInterface.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24CC7648CB325A8E8706C42B /* NativeReverseClientInterface.cpp */; };
+		D7BC3ADCCB6742FFA60C5C97 /* NativeConstants.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2E40BFB4EC8D58C99FA7CA1C /* NativeConstants.cpp */; };
+		DBB8E58EEA67EDF2DC884215 /* hello.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 959DB447B8293CD8F9F7B6E4 /* hello.cpp */; };
+		DF4FE3F3896075DABF9852FF /* wchar_test_helpers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DB2FC0F79D1448F912F88B4E /* wchar_test_helpers.cpp */; };
+		E0A4BA0A818EB2C51EAE3A7A /* NativeObjcOnlyListener.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8F32B01C4BDBDF6B6BC0166 /* NativeObjcOnlyListener.cpp */; };
+		E30D82EFE360F65A2D625575 /* NativeTestHelpers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF52830BD544C42E7E5C07FD /* NativeTestHelpers.cpp */; };
+		E4BE0064E4F7BA0E2586FE43 /* NativeFirstListener.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B846A07B022C0280E1650DA0 /* NativeFirstListener.cpp */; };
+		E522BD9E4764546016D9716D /* NativeFirstListener.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B846A07B022C0280E1650DA0 /* NativeFirstListener.cpp */; };
+		EAE568D455A821E0906AE111 /* NativeClientReturnedRecord.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B5F88F575F5E16E700AF8D1D /* NativeClientReturnedRecord.cpp */; };
+		ECFF3655BA2F7886E368B444 /* NativeInterfaceUsingExtendedRecord.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2C4871FB91CD42066837A403 /* NativeInterfaceUsingExtendedRecord.cpp */; };
+		EECAEE5B80063F01CB459C77 /* NativeEnumUsageInterface.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D0F6F2E477974065D9AEE676 /* NativeEnumUsageInterface.cpp */; };
+		EFD8B39B71C5205C02220617 /* hello_world_impl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 79BD59BF15FED019A537FC51 /* hello_world_impl.cpp */; };
+		F1D8BF09517EDE364A0D743D /* NativeEnumUsageRecord.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 82A393E3AA6FB24B8B6119A4 /* NativeEnumUsageRecord.cpp */; };
+		F29E0D09AFFF63161434EA7C /* NativeWcharTestHelpers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9C9387F4AC1845C0FC007FC8 /* NativeWcharTestHelpers.cpp */; };
+		F2AE4CBF26C9A5D6D57BAFFF /* NativeReturnOne.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 103A43FF8225A4390AA3CB30 /* NativeReturnOne.cpp */; };
+		F453BFCA00FF811F7C6D31D8 /* NativeWcharTestRec.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2DA5583A31477E1288A86911 /* NativeWcharTestRec.cpp */; };
+		F615E08CB4AC798B8A065795 /* return_one_two.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44E9037297853CB8DB8F2C51 /* return_one_two.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0CAA3B7B8F91C897FB6A3560 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19595838C155A4B8D010F15A /* support_lib.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DC658C749F521B13A5BDCBBC;
+			remoteInfo = djinni_jni;
+		};
+		381EF56E9A685934EB57D583 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19595838C155A4B8D010F15A /* support_lib.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 0C99AA4F95316AA552A79C55;
+			remoteInfo = djinni_objc;
+		};
+		50837EC43F0A29322ED23918 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19595838C155A4B8D010F15A /* support_lib.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 830C2426AC54ADA0794D7413;
+			remoteInfo = djinni_jni_main;
+		};
+		5482B25B30FEFCCB4A01CE29 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C9948D7DFB26CD6C9F3C2017 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D34D3826C00C4210E67B50D5;
+			remoteInfo = librncpp_objc;
+		};
+		9CC448F9DA7774096A17C2D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C9948D7DFB26CD6C9F3C2017 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5F596982DFF3EEC7B69AA83;
+			remoteInfo = librncpp_jni;
+		};
+		A6FA0DB92C7E59467060BE0D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19595838C155A4B8D010F15A /* support_lib.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = AD97C5F2356EF26110758A40;
+			remoteInfo = djinni_jni;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07999600983ADCC617B92F12 /* NativeConflictUser.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NativeConflictUser.cpp; sourceTree = "<group>"; };
+		0A8D5A94CA8F42BD64A581BE /* djinni_support.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = djinni_support.cpp; sourceTree = "<group>"; };
+		103A43FF8225A4390AA3CB30 /* NativeReturnOne.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NativeReturnOne.cpp; sourceTree = "<group>"; };
+		15F966EFEF0A5DAEA00790CE /* extended_record.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = extended_record.cpp; sourceTree = "<group>"; };
+		19595838C155A4B8D010F15A /* support_lib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = support_lib.xcodeproj; path = "../../ios/src/third_party/djinni/support-lib/support_lib.xcodeproj"; sourceTree = SOURCE_ROOT; };
+		227F3B6FC927E06792006AB0 /* NativeExternInterface1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NativeExternInterface1.cpp; sourceTree = "<group>"; };
+		24CC7648CB325A8E8706C42B /* NativeReverseClientInterface.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NativeReverseClientInterface.cpp; sourceTree = "<group>"; };
+		2C4871FB91CD42066837A403 /* NativeInterfaceUsingExtendedRecord.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NativeInterfaceUsingExtendedRecord.cpp; sourceTree = "<group>"; };
+		2DA5583A31477E1288A86911 /* NativeWcharTestRec.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NativeWcharTestRec.cpp; sourceTree = "<group>"; };
+		2DE55EACE0E9C1720F8DD2C6 /* NativeListenerCaller.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NativeListenerCaller.cpp; sourceTree = "<group>"; };
+		2E40BFB4EC8D58C99FA7CA1C /* NativeConstants.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NativeConstants.cpp; sourceTree = "<group>"; };
+		30B9A32EEA19DD5E1836D757 /* librncpp_objc.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = librncpp_objc.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		30F6496F2A53FEBFC46181C6 /* ListenerCaller.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ListenerCaller.cpp; sourceTree = "<group>"; };
+		378D1C98471F6E22A644DDA0 /* program.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = program.cpp; sourceTree = "<group>"; };
+		3BBC4475DE163952E5752C15 /* NativeExtendedRecord.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NativeExtendedRecord.cpp; sourceTree = "<group>"; };
+		3E64352298A0AFD9078F2C4A /* common.gypi */ = {isa = PBXFileReference; explicitFileType = sourcecode; name = common.gypi; path = ../third_party/djinni/common.gypi; sourceTree = "<group>"; };
+		4441737BBC6853EA5B06486F /* cppfile.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = cppfile.cpp; sourceTree = "<group>"; };
+		44E9037297853CB8DB8F2C51 /* return_one_two.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = return_one_two.cpp; sourceTree = "<group>"; };
+		50E665CA114453E7F4162AE4 /* reverse_client_interface_impl.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = reverse_client_interface_impl.cpp; sourceTree = "<group>"; };
+		571DDFC33866E5DF7707B4D1 /* extern_record_with_derivings.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = extern_record_with_derivings.cpp; sourceTree = "<group>"; };
+		58BDF377F7137E70A3E51D88 /* NativeSecondListener.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NativeSecondListener.cpp; sourceTree = "<group>"; };
+		60C0F2E7196C5137AA858FBA /* NativeSortItems.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NativeSortItems.cpp; sourceTree = "<group>"; };
+		62D6524EA2395B1BBE35EA54 /* record_with_duration_and_derivings.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = record_with_duration_and_derivings.cpp; sourceTree = "<group>"; };
+		631B0653D950A51ACD63C8A0 /* librncpp.gyp */ = {isa = PBXFileReference; explicitFileType = sourcecode; path = librncpp.gyp; sourceTree = "<group>"; };
+		6332EE054288CF2661E0AE48 /* NativeMapDateRecord.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NativeMapDateRecord.cpp; sourceTree = "<group>"; };
+		6518BCFD03B58276F2E737D6 /* NativeRecordWithNestedDerivings.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NativeRecordWithNestedDerivings.cpp; sourceTree = "<group>"; };
+		6733C0F942EC15DD59537325 /* test_helpers.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = test_helpers.cpp; sourceTree = "<group>"; };
+		6DC26BDD06BFDF9E2B5E039E /* NativeConstantRecord.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NativeConstantRecord.cpp; sourceTree = "<group>"; };
+		73C71648BFB2E323276E53FB /* NativeHelloWorld.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NativeHelloWorld.cpp; sourceTree = "<group>"; };
+		79BD59BF15FED019A537FC51 /* hello_world_impl.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = hello_world_impl.cpp; sourceTree = "<group>"; };
+		7BCAFFBBE0AF410470A60B37 /* hello.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = hello.cpp; sourceTree = "<group>"; };
+		7C39084978F844780521BF66 /* NativeRecordWithDurationAndDerivings.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NativeRecordWithDurationAndDerivings.cpp; sourceTree = "<group>"; };
+		7F417304DC4408A9A040AA96 /* NativeUsesSingleLanguageListeners.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NativeUsesSingleLanguageListeners.cpp; sourceTree = "<group>"; };
+		81B35B4C2075F327CAE4795F /* cppfile_withcflags.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = cppfile_withcflags.cpp; sourceTree = "<group>"; };
+		82A393E3AA6FB24B8B6119A4 /* NativeEnumUsageRecord.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NativeEnumUsageRecord.cpp; sourceTree = "<group>"; };
+		85EBCFB86DC3EBF559E1216D /* record_with_nested_derivings.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = record_with_nested_derivings.cpp; sourceTree = "<group>"; };
+		8895974F31857AF27BA58D1D /* constants_interface.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = constants_interface.cpp; sourceTree = "<group>"; };
+		89ED4A8FEE92E9362BA40B86 /* interface_using_extended_record.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = interface_using_extended_record.cpp; sourceTree = "<group>"; };
+		8B9D574CC02F66CF813EEB19 /* NativeCppException.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NativeCppException.cpp; sourceTree = "<group>"; };
+		8C5AA3B119114886A5F9041B /* hello_mac.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = hello_mac.cpp; sourceTree = "<group>"; };
+		94BAA0644AD29D3E4EE91ECC /* NativeVarnameInterface.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NativeVarnameInterface.cpp; sourceTree = "<group>"; };
+		9545C87D43A0406A7F9ECA5D /* NativeVarnameRecord.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NativeVarnameRecord.cpp; sourceTree = "<group>"; };
+		959DB447B8293CD8F9F7B6E4 /* hello.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = hello.cpp; sourceTree = "<group>"; };
+		96AD349FF8225E5D7B712122 /* NativeAssortedPrimitives.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NativeAssortedPrimitives.cpp; sourceTree = "<group>"; };
+		98602511A94A4A1EE18D6260 /* assorted_primitives.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = assorted_primitives.cpp; sourceTree = "<group>"; };
+		9C00E06CF7EA544BB012DFD3 /* NativeTextboxListener.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NativeTextboxListener.cpp; sourceTree = "<group>"; };
+		9C9387F4AC1845C0FC007FC8 /* NativeWcharTestHelpers.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NativeWcharTestHelpers.cpp; sourceTree = "<group>"; };
+		9D9136F67BFEC310FA0A3B2C /* NativeConstantsInterface.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NativeConstantsInterface.cpp; sourceTree = "<group>"; };
+		A33BECDC643A72D9891DCCA4 /* NativeMapRecord.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NativeMapRecord.cpp; sourceTree = "<group>"; };
+		AC9773BEB776B0AF4073078F /* NativeConflict.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NativeConflict.cpp; sourceTree = "<group>"; };
+		AFFD0FB2BEC50C4EF9994144 /* lib1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = lib1.cpp; sourceTree = "<group>"; };
+		B221E21B8E7F3048C81E0DAF /* NativeExternRecordWithDerivings.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NativeExternRecordWithDerivings.cpp; sourceTree = "<group>"; };
+		B5F88F575F5E16E700AF8D1D /* NativeClientReturnedRecord.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NativeClientReturnedRecord.cpp; sourceTree = "<group>"; };
+		B846A07B022C0280E1650DA0 /* NativeFirstListener.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NativeFirstListener.cpp; sourceTree = "<group>"; };
+		B9E888754828118076371CE8 /* constants.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = constants.cpp; sourceTree = "<group>"; };
+		C13B9A7A20F91F8EB348CFE5 /* NativeItemList.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NativeItemList.cpp; sourceTree = "<group>"; };
+		C31F7F25C09506A610E6BF1B /* cpp_exception_impl.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = cpp_exception_impl.cpp; sourceTree = "<group>"; };
+		C5F6F405B0DC7DC41077C89F /* djinni_main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = djinni_main.cpp; sourceTree = "<group>"; };
+		C95E6C12C8709EBE7C757A3F /* NativeEmptyRecord.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NativeEmptyRecord.cpp; sourceTree = "<group>"; };
+		CA3EA5F88667ADA968C415A5 /* sort_items_impl.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = sort_items_impl.cpp; sourceTree = "<group>"; };
+		CA5B47E9D648F21BD240537E /* librncpp_jni.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = librncpp_jni.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC01891F3E285FE093F5273C /* NativeExternInterface2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NativeExternInterface2.cpp; sourceTree = "<group>"; };
+		CF23BE4D865A4201EAF4171A /* hello.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = hello.cpp; sourceTree = "<group>"; };
+		D0F6F2E477974065D9AEE676 /* NativeEnumUsageInterface.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NativeEnumUsageInterface.cpp; sourceTree = "<group>"; };
+		D13C74B10E839CC9BB82E0A8 /* NativeTestDuration.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NativeTestDuration.cpp; sourceTree = "<group>"; };
+		D2D48A068A27AF272F42A62C /* custom_exception_type.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = custom_exception_type.cpp; sourceTree = "<group>"; };
+		D4729EC92ACEBEB80937E297 /* NativeDateRecord.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NativeDateRecord.cpp; sourceTree = "<group>"; };
+		D49E5DFE61ACBDAEEAC8AA08 /* NativeMapListRecord.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NativeMapListRecord.cpp; sourceTree = "<group>"; };
+		D6BFCBA7315435BCC9706EDB /* NativePrimitiveList.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NativePrimitiveList.cpp; sourceTree = "<group>"; };
+		D7F4FA4D683984E794F140AC /* NativeRecordWithDerivings.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NativeRecordWithDerivings.cpp; sourceTree = "<group>"; };
+		D82DFA96DF48201D76CD9EEC /* TranslateDuration.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TranslateDuration.cpp; sourceTree = "<group>"; };
+		D8F32B01C4BDBDF6B6BC0166 /* NativeObjcOnlyListener.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NativeObjcOnlyListener.cpp; sourceTree = "<group>"; };
+		DA51FC8B1EB150AD03173FA9 /* date_record.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = date_record.cpp; sourceTree = "<group>"; };
+		DB2FC0F79D1448F912F88B4E /* wchar_test_helpers.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = wchar_test_helpers.cpp; sourceTree = "<group>"; };
+		DF5A4CAAC9680B80404BEDEA /* NativeRecordUsingExtendedRecord.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NativeRecordUsingExtendedRecord.cpp; sourceTree = "<group>"; };
+		E340C29BE9EF35619F9CFCF0 /* NativeReturnTwo.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NativeReturnTwo.cpp; sourceTree = "<group>"; };
+		E5FBA7D7661C998D2DA21917 /* extended_record_base.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = extended_record_base.cpp; sourceTree = "<group>"; };
+		E6E5DE6BB5483CD859700FE1 /* NativeJavaOnlyListener.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NativeJavaOnlyListener.cpp; sourceTree = "<group>"; };
+		EF1D7BAB44F1F56FCD2120E7 /* NativeUserToken.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NativeUserToken.cpp; sourceTree = "<group>"; };
+		EF52830BD544C42E7E5C07FD /* NativeTestHelpers.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NativeTestHelpers.cpp; sourceTree = "<group>"; };
+		F17873D8AAD55C5FA1B90540 /* NativeSetRecord.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NativeSetRecord.cpp; sourceTree = "<group>"; };
+		F2E2F15C02EB0CC42661E7D6 /* RNCPP_HelloWorld+Private.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "RNCPP_HelloWorld+Private.mm"; sourceTree = "<group>"; };
+		F5C02363C9F5EF2B32AD58C5 /* NativeNestedCollection.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NativeNestedCollection.cpp; sourceTree = "<group>"; };
+		F7DF407E53162E2340ABDE01 /* record_using_extended_record.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = record_using_extended_record.cpp; sourceTree = "<group>"; };
+		FAC9EB03035E7BFEF2CC9470 /* NativeClientInterface.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NativeClientInterface.cpp; sourceTree = "<group>"; };
+		FFCB609E19EC5C677F082E65 /* record_with_derivings.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = record_with_derivings.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		29E0DE25F2F702D46FC0AF8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D7204EB81F9263AF0F0E2D8 /* libdjinni_jni.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D0CC178F45B19A2CD050BA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01A121D87FA365A3BE41A306 /* Projects */ = {
+			isa = PBXGroup;
+			children = (
+				19595838C155A4B8D010F15A /* support_lib.xcodeproj */,
+			);
+			name = Projects;
+			sourceTree = "<group>";
+		};
+		0A7E24A491EDB9D6897F8C85 /* mac/cflags */ = {
+			isa = PBXGroup;
+			children = (
+				4441737BBC6853EA5B06486F /* cppfile.cpp */,
+				81B35B4C2075F327CAE4795F /* cppfile_withcflags.cpp */,
+			);
+			path = mac/cflags;
+			sourceTree = "<group>";
+		};
+		0AEF530907066EBD4193010F /* ../djinni_build */ = {
+			isa = PBXGroup;
+			children = (
+				F1AB2E13086118935C2BEE16 /* jni */,
+				A3290AF135AC6281984F4565 /* objc */,
+			);
+			path = ../djinni_build;
+			sourceTree = "<group>";
+		};
+		132D1C355FBF631F7FACF6EA /* jni */ = {
+			isa = PBXGroup;
+			children = (
+				96AD349FF8225E5D7B712122 /* NativeAssortedPrimitives.cpp */,
+				FAC9EB03035E7BFEF2CC9470 /* NativeClientInterface.cpp */,
+				B5F88F575F5E16E700AF8D1D /* NativeClientReturnedRecord.cpp */,
+				AC9773BEB776B0AF4073078F /* NativeConflict.cpp */,
+				07999600983ADCC617B92F12 /* NativeConflictUser.cpp */,
+				6DC26BDD06BFDF9E2B5E039E /* NativeConstantRecord.cpp */,
+				2E40BFB4EC8D58C99FA7CA1C /* NativeConstants.cpp */,
+				9D9136F67BFEC310FA0A3B2C /* NativeConstantsInterface.cpp */,
+				8B9D574CC02F66CF813EEB19 /* NativeCppException.cpp */,
+				D4729EC92ACEBEB80937E297 /* NativeDateRecord.cpp */,
+				C95E6C12C8709EBE7C757A3F /* NativeEmptyRecord.cpp */,
+				D0F6F2E477974065D9AEE676 /* NativeEnumUsageInterface.cpp */,
+				82A393E3AA6FB24B8B6119A4 /* NativeEnumUsageRecord.cpp */,
+				3BBC4475DE163952E5752C15 /* NativeExtendedRecord.cpp */,
+				227F3B6FC927E06792006AB0 /* NativeExternInterface1.cpp */,
+				CC01891F3E285FE093F5273C /* NativeExternInterface2.cpp */,
+				B221E21B8E7F3048C81E0DAF /* NativeExternRecordWithDerivings.cpp */,
+				B846A07B022C0280E1650DA0 /* NativeFirstListener.cpp */,
+				2C4871FB91CD42066837A403 /* NativeInterfaceUsingExtendedRecord.cpp */,
+				E6E5DE6BB5483CD859700FE1 /* NativeJavaOnlyListener.cpp */,
+				2DE55EACE0E9C1720F8DD2C6 /* NativeListenerCaller.cpp */,
+				6332EE054288CF2661E0AE48 /* NativeMapDateRecord.cpp */,
+				D49E5DFE61ACBDAEEAC8AA08 /* NativeMapListRecord.cpp */,
+				A33BECDC643A72D9891DCCA4 /* NativeMapRecord.cpp */,
+				F5C02363C9F5EF2B32AD58C5 /* NativeNestedCollection.cpp */,
+				D8F32B01C4BDBDF6B6BC0166 /* NativeObjcOnlyListener.cpp */,
+				D6BFCBA7315435BCC9706EDB /* NativePrimitiveList.cpp */,
+				DF5A4CAAC9680B80404BEDEA /* NativeRecordUsingExtendedRecord.cpp */,
+				D7F4FA4D683984E794F140AC /* NativeRecordWithDerivings.cpp */,
+				7C39084978F844780521BF66 /* NativeRecordWithDurationAndDerivings.cpp */,
+				6518BCFD03B58276F2E737D6 /* NativeRecordWithNestedDerivings.cpp */,
+				103A43FF8225A4390AA3CB30 /* NativeReturnOne.cpp */,
+				E340C29BE9EF35619F9CFCF0 /* NativeReturnTwo.cpp */,
+				24CC7648CB325A8E8706C42B /* NativeReverseClientInterface.cpp */,
+				58BDF377F7137E70A3E51D88 /* NativeSecondListener.cpp */,
+				F17873D8AAD55C5FA1B90540 /* NativeSetRecord.cpp */,
+				D13C74B10E839CC9BB82E0A8 /* NativeTestDuration.cpp */,
+				EF52830BD544C42E7E5C07FD /* NativeTestHelpers.cpp */,
+				EF1D7BAB44F1F56FCD2120E7 /* NativeUserToken.cpp */,
+				7F417304DC4408A9A040AA96 /* NativeUsesSingleLanguageListeners.cpp */,
+				94BAA0644AD29D3E4EE91ECC /* NativeVarnameInterface.cpp */,
+				9545C87D43A0406A7F9ECA5D /* NativeVarnameRecord.cpp */,
+				9C9387F4AC1845C0FC007FC8 /* NativeWcharTestHelpers.cpp */,
+				2DA5583A31477E1288A86911 /* NativeWcharTestRec.cpp */,
+			);
+			path = jni;
+			sourceTree = "<group>";
+		};
+		179618FC06CEF4104D4EDE08 /* generated-src */ = {
+			isa = PBXGroup;
+			children = (
+				2202B06A0691E53198F30D96 /* cpp */,
+				132D1C355FBF631F7FACF6EA /* jni */,
+			);
+			path = "generated-src";
+			sourceTree = "<group>";
+		};
+		1E9A187B3B86C9C1D701A7C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1E1F540B66710E0C46766F69 /* libdjinni_jni.a */,
+				2AD76B0A8D2EFE804F34294F /* libdjinni_jni_main.a */,
+				4885DE166568263896596832 /* libdjinni_objc.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2202B06A0691E53198F30D96 /* cpp */ = {
+			isa = PBXGroup;
+			children = (
+				98602511A94A4A1EE18D6260 /* assorted_primitives.cpp */,
+				B9E888754828118076371CE8 /* constants.cpp */,
+				8895974F31857AF27BA58D1D /* constants_interface.cpp */,
+				DA51FC8B1EB150AD03173FA9 /* date_record.cpp */,
+				E5FBA7D7661C998D2DA21917 /* extended_record_base.cpp */,
+				571DDFC33866E5DF7707B4D1 /* extern_record_with_derivings.cpp */,
+				89ED4A8FEE92E9362BA40B86 /* interface_using_extended_record.cpp */,
+				F7DF407E53162E2340ABDE01 /* record_using_extended_record.cpp */,
+				FFCB609E19EC5C677F082E65 /* record_with_derivings.cpp */,
+				62D6524EA2395B1BBE35EA54 /* record_with_duration_and_derivings.cpp */,
+				85EBCFB86DC3EBF559E1216D /* record_with_nested_derivings.cpp */,
+			);
+			path = cpp;
+			sourceTree = "<group>";
+		};
+		31EA956946903740A31A7A4A /* external_builder */ = {
+			isa = PBXGroup;
+			children = (
+				CF23BE4D865A4201EAF4171A /* hello.cpp */,
+			);
+			path = external_builder;
+			sourceTree = "<group>";
+		};
+		375654C4145850DB3ACAB2B2 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				0AEF530907066EBD4193010F /* ../djinni_build */,
+				7E1661153798ED62A06D4039 /* cpp */,
+				DDC427E0CD88544EC333ECA6 /* third_party */,
+			);
+			name = Source;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		585D4B8E8BD815AE021ECCE3 /* support-lib/jni */ = {
+			isa = PBXGroup;
+			children = (
+				C5F6F405B0DC7DC41077C89F /* djinni_main.cpp */,
+				0A8D5A94CA8F42BD64A581BE /* djinni_support.cpp */,
+			);
+			path = "support-lib/jni";
+			sourceTree = "<group>";
+		};
+		5ADA338409B0BDC4FD5FC151 /* list_excluded */ = {
+			isa = PBXGroup;
+			children = (
+				959DB447B8293CD8F9F7B6E4 /* hello.cpp */,
+				8C5AA3B119114886A5F9041B /* hello_mac.cpp */,
+			);
+			path = list_excluded;
+			sourceTree = "<group>";
+		};
+		61D8BBAE0863DC9BDC8F06A8 /* extension-libs/jni-exceptions */ = {
+			isa = PBXGroup;
+			children = (
+				D2D48A068A27AF272F42A62C /* custom_exception_type.cpp */,
+			);
+			path = "extension-libs/jni-exceptions";
+			sourceTree = "<group>";
+		};
+		68A748FF0BEB458859450BF2 /* Build */ = {
+			isa = PBXGroup;
+			children = (
+				3E64352298A0AFD9078F2C4A /* common.gypi */,
+				631B0653D950A51ACD63C8A0 /* librncpp.gyp */,
+			);
+			name = Build;
+			sourceTree = "<group>";
+		};
+		6922E517D3ABBE2EB182A69C /* win/rc-build */ = {
+			isa = PBXGroup;
+			children = (
+				7BCAFFBBE0AF410470A60B37 /* hello.cpp */,
+			);
+			path = "win/rc-build";
+			sourceTree = "<group>";
+		};
+		7E1661153798ED62A06D4039 /* cpp */ = {
+			isa = PBXGroup;
+			children = (
+				79BD59BF15FED019A537FC51 /* hello_world_impl.cpp */,
+			);
+			path = cpp;
+			sourceTree = "<group>";
+		};
+		881FE6F36A58D2EEB7F261B5 /* gyp/test */ = {
+			isa = PBXGroup;
+			children = (
+				89E0D77B00D1E1CFA16F1E3F /* compilable/src */,
+				0A7E24A491EDB9D6897F8C85 /* mac/cflags */,
+				D90042C96DD928EEC44CA1D7 /* msvs */,
+				6922E517D3ABBE2EB182A69C /* win/rc-build */,
+			);
+			path = gyp/test;
+			sourceTree = "<group>";
+		};
+		89E0D77B00D1E1CFA16F1E3F /* compilable/src */ = {
+			isa = PBXGroup;
+			children = (
+				AFFD0FB2BEC50C4EF9994144 /* lib1.cpp */,
+				378D1C98471F6E22A644DDA0 /* program.cpp */,
+			);
+			path = compilable/src;
+			sourceTree = "<group>";
+		};
+		A2C74C318522BEF05DD21772 /* generated-src/jni */ = {
+			isa = PBXGroup;
+			children = (
+				C13B9A7A20F91F8EB348CFE5 /* NativeItemList.cpp */,
+				60C0F2E7196C5137AA858FBA /* NativeSortItems.cpp */,
+				9C00E06CF7EA544BB012DFD3 /* NativeTextboxListener.cpp */,
+			);
+			path = "generated-src/jni";
+			sourceTree = "<group>";
+		};
+		A3290AF135AC6281984F4565 /* objc */ = {
+			isa = PBXGroup;
+			children = (
+				F2E2F15C02EB0CC42661E7D6 /* RNCPP_HelloWorld+Private.mm */,
+			);
+			path = objc;
+			sourceTree = "<group>";
+		};
+		B2B4826CD9DCEBDBB0CFAC9E /* handwritten-src/cpp */ = {
+			isa = PBXGroup;
+			children = (
+				30F6496F2A53FEBFC46181C6 /* ListenerCaller.cpp */,
+				D82DFA96DF48201D76CD9EEC /* TranslateDuration.cpp */,
+				C31F7F25C09506A610E6BF1B /* cpp_exception_impl.cpp */,
+				15F966EFEF0A5DAEA00790CE /* extended_record.cpp */,
+				44E9037297853CB8DB8F2C51 /* return_one_two.cpp */,
+				50E665CA114453E7F4162AE4 /* reverse_client_interface_impl.cpp */,
+				6733C0F942EC15DD59537325 /* test_helpers.cpp */,
+				DB2FC0F79D1448F912F88B4E /* wchar_test_helpers.cpp */,
+			);
+			path = "handwritten-src/cpp";
+			sourceTree = "<group>";
+		};
+		B5716602FCF67BE9CA84DD50 /* handwritten-src/cpp */ = {
+			isa = PBXGroup;
+			children = (
+				CA3EA5F88667ADA968C415A5 /* sort_items_impl.cpp */,
+			);
+			path = "handwritten-src/cpp";
+			sourceTree = "<group>";
+		};
+		C5DD197D89621BA655F955EB = {
+			isa = PBXGroup;
+			children = (
+				375654C4145850DB3ACAB2B2 /* Source */,
+				01A121D87FA365A3BE41A306 /* Projects */,
+				D8F0C9C31BDD72E07787A776 /* Products */,
+				68A748FF0BEB458859450BF2 /* Build */,
+			);
+			sourceTree = "<group>";
+		};
+		D650836D4F92A37138733638 /* djinni */ = {
+			isa = PBXGroup;
+			children = (
+				FC68443B9FFA3C3195B749E0 /* example */,
+				61D8BBAE0863DC9BDC8F06A8 /* extension-libs/jni-exceptions */,
+				585D4B8E8BD815AE021ECCE3 /* support-lib/jni */,
+				FD9FEE7879261E913F5AB388 /* test-suite */,
+			);
+			path = djinni;
+			sourceTree = "<group>";
+		};
+		D8F0C9C31BDD72E07787A776 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA5B47E9D648F21BD240537E /* librncpp_jni.dylib */,
+				30B9A32EEA19DD5E1836D757 /* librncpp_objc.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D90042C96DD928EEC44CA1D7 /* msvs */ = {
+			isa = PBXGroup;
+			children = (
+				31EA956946903740A31A7A4A /* external_builder */,
+				5ADA338409B0BDC4FD5FC151 /* list_excluded */,
+			);
+			path = msvs;
+			sourceTree = "<group>";
+		};
+		DDC427E0CD88544EC333ECA6 /* third_party */ = {
+			isa = PBXGroup;
+			children = (
+				D650836D4F92A37138733638 /* djinni */,
+				881FE6F36A58D2EEB7F261B5 /* gyp/test */,
+			);
+			path = third_party;
+			sourceTree = "<group>";
+		};
+		F1AB2E13086118935C2BEE16 /* jni */ = {
+			isa = PBXGroup;
+			children = (
+				73C71648BFB2E323276E53FB /* NativeHelloWorld.cpp */,
+			);
+			path = jni;
+			sourceTree = "<group>";
+		};
+		FC68443B9FFA3C3195B749E0 /* example */ = {
+			isa = PBXGroup;
+			children = (
+				A2C74C318522BEF05DD21772 /* generated-src/jni */,
+				B5716602FCF67BE9CA84DD50 /* handwritten-src/cpp */,
+			);
+			path = example;
+			sourceTree = "<group>";
+		};
+		FD9FEE7879261E913F5AB388 /* test-suite */ = {
+			isa = PBXGroup;
+			children = (
+				179618FC06CEF4104D4EDE08 /* generated-src */,
+				B2B4826CD9DCEBDBB0CFAC9E /* handwritten-src/cpp */,
+			);
+			path = "test-suite";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D34D3826C00C4210E67B50D5 /* librncpp_objc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C96521FA9D129338CB453747 /* Build configuration list for PBXNativeTarget "librncpp_objc" */;
+			buildPhases = (
+				686AAF6C9CC11995B18BB496 /* Sources */,
+				9D0CC178F45B19A2CD050BA5 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = librncpp_objc;
+			productName = rncpp_objc;
+			productReference = 30B9A32EEA19DD5E1836D757 /* librncpp_objc.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D5F596982DFF3EEC7B69AA83 /* librncpp_jni */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F9756015854D30DC53313BC /* Build configuration list for PBXNativeTarget "librncpp_jni" */;
+			buildPhases = (
+				10F9F68475D5F4A5C731C365 /* Sources */,
+				29E0DE25F2F702D46FC0AF8C /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				31652D4746E75D9DA6EBB698 /* PBXTargetDependency */,
+			);
+			name = librncpp_jni;
+			productName = rncpp_jni;
+			productReference = CA5B47E9D648F21BD240537E /* librncpp_jni.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C9948D7DFB26CD6C9F3C2017 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+			};
+			buildConfigurationList = FE5DF99389621AB581926BFD /* Build configuration list for PBXProject "librncpp" */;
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 1;
+			mainGroup = C5DD197D89621BA655F955EB;
+			projectDirPath = ../../../src/lib;
+			projectReferences = (
+				{
+					ProductGroup = 1E9A187B3B86C9C1D701A7C4 /* Products */;
+					ProjectRef = 19595838C155A4B8D010F15A /* support_lib.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				695242E26AE8951E268DB46C /* All */,
+				D5F596982DFF3EEC7B69AA83 /* librncpp_jni */,
+				D34D3826C00C4210E67B50D5 /* librncpp_objc */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		1E1F540B66710E0C46766F69 /* libdjinni_jni.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libdjinni_jni.a;
+			remoteRef = 0CAA3B7B8F91C897FB6A3560 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2AD76B0A8D2EFE804F34294F /* libdjinni_jni_main.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libdjinni_jni_main.a;
+			remoteRef = 50837EC43F0A29322ED23918 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4885DE166568263896596832 /* libdjinni_objc.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libdjinni_objc.a;
+			remoteRef = 381EF56E9A685934EB57D583 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXSourcesBuildPhase section */
+		10F9F68475D5F4A5C731C365 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4111C224EFCF84D91AA6CA8B /* djinni_main.cpp in Sources */,
+				8A285D046222C93373A73FEA /* NativeHelloWorld.cpp in Sources */,
+				EFD8B39B71C5205C02220617 /* hello_world_impl.cpp in Sources */,
+				7807B0D7151E63222A633123 /* NativeItemList.cpp in Sources */,
+				BCF47B5D54925236019C38F5 /* NativeSortItems.cpp in Sources */,
+				C66DD8A5ABA8608534A8E6F7 /* NativeTextboxListener.cpp in Sources */,
+				C89EC6639B54C338F52422B6 /* sort_items_impl.cpp in Sources */,
+				9A2BF56266670AEF85F2F743 /* custom_exception_type.cpp in Sources */,
+				D220E9623F6F7B32EA58CEF1 /* djinni_support.cpp in Sources */,
+				5BFCE8BA63C11D5DBBA387F5 /* assorted_primitives.cpp in Sources */,
+				1FE8DF736EDA996B2D3291BC /* constants.cpp in Sources */,
+				82AA0C0B6510DFD3339E36B6 /* constants_interface.cpp in Sources */,
+				ABEFF82E359F62DD5A35B751 /* date_record.cpp in Sources */,
+				996BF5BC8AFF90E7E214D36E /* extended_record_base.cpp in Sources */,
+				5244A13C3A6AD4C88AD0F6C0 /* extern_record_with_derivings.cpp in Sources */,
+				7C0A440BDB40454C54B2B9FB /* interface_using_extended_record.cpp in Sources */,
+				4FF05D2618EB38B5C17A854C /* record_using_extended_record.cpp in Sources */,
+				9DA59ACCC70802EB0AB17509 /* record_with_derivings.cpp in Sources */,
+				432DEBDBC87C05A21F52AC69 /* record_with_duration_and_derivings.cpp in Sources */,
+				27AD30843C758B520B694868 /* record_with_nested_derivings.cpp in Sources */,
+				B971ED6160C276D9B91AA993 /* NativeAssortedPrimitives.cpp in Sources */,
+				06540C37603ABA8FB51450AC /* NativeClientInterface.cpp in Sources */,
+				EAE568D455A821E0906AE111 /* NativeClientReturnedRecord.cpp in Sources */,
+				813F4EB2FB1E2544EF41C44F /* NativeConflict.cpp in Sources */,
+				2DBFD8F16511487A70411B0F /* NativeConflictUser.cpp in Sources */,
+				ABD488DA694186CB2386BE78 /* NativeConstantRecord.cpp in Sources */,
+				D7BC3ADCCB6742FFA60C5C97 /* NativeConstants.cpp in Sources */,
+				B54DFDC577373B6908A8B319 /* NativeConstantsInterface.cpp in Sources */,
+				2AF9F961B7D3710B626A5C41 /* NativeCppException.cpp in Sources */,
+				0CA3D39DE317BC03ADC97125 /* NativeDateRecord.cpp in Sources */,
+				BE6B81B249F32EBB4923B512 /* NativeEmptyRecord.cpp in Sources */,
+				5D1D8809316C6B698FD86760 /* NativeEnumUsageInterface.cpp in Sources */,
+				F1D8BF09517EDE364A0D743D /* NativeEnumUsageRecord.cpp in Sources */,
+				965F46617A0B92DBC774A076 /* NativeExtendedRecord.cpp in Sources */,
+				8B8314AC8FDF5B9035586297 /* NativeExternInterface1.cpp in Sources */,
+				34B01D310A4473C3493C0D05 /* NativeExternInterface2.cpp in Sources */,
+				2226EF92E5C49DA5DAFF5C12 /* NativeExternRecordWithDerivings.cpp in Sources */,
+				E522BD9E4764546016D9716D /* NativeFirstListener.cpp in Sources */,
+				3DD6FF9822BCF6C288D9F4F8 /* NativeInterfaceUsingExtendedRecord.cpp in Sources */,
+				4FD3A2D355E4000272238498 /* NativeJavaOnlyListener.cpp in Sources */,
+				307ED3C4C585BC3BC2F99D0F /* NativeListenerCaller.cpp in Sources */,
+				95A672219F4A86DF17683900 /* NativeMapDateRecord.cpp in Sources */,
+				BB42DBDC46A4DA276CB16D9A /* NativeMapListRecord.cpp in Sources */,
+				B965E0A90B415982D14C3564 /* NativeMapRecord.cpp in Sources */,
+				5265EC575EF74DD04E030FDF /* NativeNestedCollection.cpp in Sources */,
+				0BFB03F2824A657062101367 /* NativeObjcOnlyListener.cpp in Sources */,
+				B8643C76AB85A6AFD7A7EEF1 /* NativePrimitiveList.cpp in Sources */,
+				693F55FB0B971D536157A650 /* NativeRecordUsingExtendedRecord.cpp in Sources */,
+				6496ABAA3EBBA67480DE4853 /* NativeRecordWithDerivings.cpp in Sources */,
+				864C1388B333F02BB8DD9E9F /* NativeRecordWithDurationAndDerivings.cpp in Sources */,
+				2740291E1B75AC67BC5248C7 /* NativeRecordWithNestedDerivings.cpp in Sources */,
+				48B7E073A60097F2CFC33763 /* NativeReturnOne.cpp in Sources */,
+				A4591CAB7E331259F307DCBD /* NativeReturnTwo.cpp in Sources */,
+				C004D76679793E7951FDC4BA /* NativeReverseClientInterface.cpp in Sources */,
+				A5E3FDCE8CAC141E350D869D /* NativeSecondListener.cpp in Sources */,
+				3DA46F0381CB4CF862A0ADBA /* NativeSetRecord.cpp in Sources */,
+				CF31238F1A01919245A9DE6A /* NativeTestDuration.cpp in Sources */,
+				A236EAEAB7649880090A3321 /* NativeTestHelpers.cpp in Sources */,
+				D51841CF2121BFDE004ABB4F /* NativeUserToken.cpp in Sources */,
+				014970028E7E5342EF80B58D /* NativeUsesSingleLanguageListeners.cpp in Sources */,
+				55D7A8A3BC3C77C3CB8980CB /* NativeVarnameInterface.cpp in Sources */,
+				4CC0775FB629D4F2B7F9B57F /* NativeVarnameRecord.cpp in Sources */,
+				813378733043E4F53CD9C985 /* NativeWcharTestHelpers.cpp in Sources */,
+				F453BFCA00FF811F7C6D31D8 /* NativeWcharTestRec.cpp in Sources */,
+				3BC5F5DE33992D532E61E97B /* cpp_exception_impl.cpp in Sources */,
+				441A01382836CE4AAE2D4313 /* extended_record.cpp in Sources */,
+				5E888925EE0DCC8343FA4AD4 /* ListenerCaller.cpp in Sources */,
+				5738CA817C72C64B2A08EA3C /* return_one_two.cpp in Sources */,
+				7EE230FB55E8CCC288C53030 /* reverse_client_interface_impl.cpp in Sources */,
+				22505594220D92D711AF963E /* test_helpers.cpp in Sources */,
+				657E6C447BB9A31DE74943AF /* TranslateDuration.cpp in Sources */,
+				978AABDE6B0A191E76C9506C /* wchar_test_helpers.cpp in Sources */,
+				906584FBEB440ACE4C4DDF46 /* lib1.cpp in Sources */,
+				CC369943268B06F471ADE5FA /* program.cpp in Sources */,
+				8693C3BC3960DDFF1A4F1814 /* cppfile.cpp in Sources */,
+				C7E8DE10504249E66882D6B9 /* cppfile_withcflags.cpp in Sources */,
+				A72085281D0B8D522670202D /* hello.cpp in Sources */,
+				DBB8E58EEA67EDF2DC884215 /* hello.cpp in Sources */,
+				7F7320ECE26B487EB92B9070 /* hello_mac.cpp in Sources */,
+				AC3CC3D83A08AC84591D3EB5 /* hello.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		686AAF6C9CC11995B18BB496 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55671CA63D0B026D85938A39 /* RNCPP_HelloWorld+Private.mm in Sources */,
+				34ECC37F8697A00CF24F0F71 /* hello_world_impl.cpp in Sources */,
+				89123A2291E8FA62DF0E81E3 /* NativeItemList.cpp in Sources */,
+				9861C064C8A4553AC0BDE0CC /* NativeSortItems.cpp in Sources */,
+				3920F159DFD3AB78B3CC9950 /* NativeTextboxListener.cpp in Sources */,
+				88DA77E0B91D5483F6AF792F /* sort_items_impl.cpp in Sources */,
+				0738F8DDF51A129C7CB7E26E /* custom_exception_type.cpp in Sources */,
+				342657C5FA0D2CB708762AA0 /* djinni_main.cpp in Sources */,
+				B4858C67635C593AB7799724 /* djinni_support.cpp in Sources */,
+				8D53EA43155FF4404DF7AB46 /* assorted_primitives.cpp in Sources */,
+				9CBEA6093CA89DC9562E5DB8 /* constants.cpp in Sources */,
+				5C4752C15748B6DE4C5E61E5 /* constants_interface.cpp in Sources */,
+				4071863D6EF9FDF9525E603C /* date_record.cpp in Sources */,
+				4843FBFBEC069F67C0F852FF /* extended_record_base.cpp in Sources */,
+				BB635ED6DC4F8DBCC64CBDAD /* extern_record_with_derivings.cpp in Sources */,
+				CBC9817EDD752136F7B5FC46 /* interface_using_extended_record.cpp in Sources */,
+				B7C009A04BE1BF7BF8715DA9 /* record_using_extended_record.cpp in Sources */,
+				9F4AA02724D0253B67A44018 /* record_with_derivings.cpp in Sources */,
+				C10CB5569B8A5F39196FB89E /* record_with_duration_and_derivings.cpp in Sources */,
+				2728105603632659B6970200 /* record_with_nested_derivings.cpp in Sources */,
+				9BEB381A95EFB7998DB91E57 /* NativeAssortedPrimitives.cpp in Sources */,
+				CB0A3622172BFD8881AD2F0B /* NativeClientInterface.cpp in Sources */,
+				29C7DC8FFD2B72E26964890B /* NativeClientReturnedRecord.cpp in Sources */,
+				0C23CF9BA9D7D84916421D91 /* NativeConflict.cpp in Sources */,
+				A1B366276423F006244576D3 /* NativeConflictUser.cpp in Sources */,
+				681166C5786FC5C51FEEFA76 /* NativeConstantRecord.cpp in Sources */,
+				CCB630C2FC5DE59DE4ADFA1A /* NativeConstants.cpp in Sources */,
+				B87AAB5C13360249BB76813C /* NativeConstantsInterface.cpp in Sources */,
+				B5725BE94EAB071FA860AB3F /* NativeCppException.cpp in Sources */,
+				AE04E99F50BFF4CC1CB9308F /* NativeDateRecord.cpp in Sources */,
+				711B8B42D03840A1FB346AF6 /* NativeEmptyRecord.cpp in Sources */,
+				EECAEE5B80063F01CB459C77 /* NativeEnumUsageInterface.cpp in Sources */,
+				704F50E3FFB1B823F232F425 /* NativeEnumUsageRecord.cpp in Sources */,
+				5A66F9E088E3199725596D3A /* NativeExtendedRecord.cpp in Sources */,
+				96FA9354A9E2139A2F26F81E /* NativeExternInterface1.cpp in Sources */,
+				898705CE89C7C22FCC54C485 /* NativeExternInterface2.cpp in Sources */,
+				553E1EE22FF6D04CA8FC4E0D /* NativeExternRecordWithDerivings.cpp in Sources */,
+				E4BE0064E4F7BA0E2586FE43 /* NativeFirstListener.cpp in Sources */,
+				ECFF3655BA2F7886E368B444 /* NativeInterfaceUsingExtendedRecord.cpp in Sources */,
+				BD2B1EBA5A6E50F21D8EEDEC /* NativeJavaOnlyListener.cpp in Sources */,
+				81ED2B18F3622779F9B9382F /* NativeListenerCaller.cpp in Sources */,
+				879F00B1E3402CE362713DEE /* NativeMapDateRecord.cpp in Sources */,
+				0A53748DB0243E16193240D0 /* NativeMapListRecord.cpp in Sources */,
+				4DBC3068A15369957483F38A /* NativeMapRecord.cpp in Sources */,
+				6FAB3E901B397A21D54EAB9C /* NativeNestedCollection.cpp in Sources */,
+				E0A4BA0A818EB2C51EAE3A7A /* NativeObjcOnlyListener.cpp in Sources */,
+				81852DF9911A69D37B3E4020 /* NativePrimitiveList.cpp in Sources */,
+				A2A13805FC2C8BBCDCD7AFD0 /* NativeRecordUsingExtendedRecord.cpp in Sources */,
+				859071E80851241B3EA7A363 /* NativeRecordWithDerivings.cpp in Sources */,
+				7BBF58EB8B2DEE4CA6086DE8 /* NativeRecordWithDurationAndDerivings.cpp in Sources */,
+				A84136EA29DCC273FCF1835E /* NativeRecordWithNestedDerivings.cpp in Sources */,
+				F2AE4CBF26C9A5D6D57BAFFF /* NativeReturnOne.cpp in Sources */,
+				694E7C1BE339F3A866987C97 /* NativeReturnTwo.cpp in Sources */,
+				D6CA55EB5DFCD54BD78B56F1 /* NativeReverseClientInterface.cpp in Sources */,
+				CE8E3BEC9FFF787DD4E589CC /* NativeSecondListener.cpp in Sources */,
+				26077B364DBB6A4A144B5316 /* NativeSetRecord.cpp in Sources */,
+				5BC3ABD148B71B9552E370BB /* NativeTestDuration.cpp in Sources */,
+				E30D82EFE360F65A2D625575 /* NativeTestHelpers.cpp in Sources */,
+				42F38946BAB229FC3115C281 /* NativeUserToken.cpp in Sources */,
+				07060825B31CBD82F51155E0 /* NativeUsesSingleLanguageListeners.cpp in Sources */,
+				BA4717BC47866803CE611606 /* NativeVarnameInterface.cpp in Sources */,
+				107BA97701CCBAB110DB58E4 /* NativeVarnameRecord.cpp in Sources */,
+				F29E0D09AFFF63161434EA7C /* NativeWcharTestHelpers.cpp in Sources */,
+				14B75C2B9F13E861EF2699BE /* NativeWcharTestRec.cpp in Sources */,
+				D10C74F7E7D5FBDABB22BEC0 /* cpp_exception_impl.cpp in Sources */,
+				BBE0DAC6F827C988266A0542 /* extended_record.cpp in Sources */,
+				9ECDFFC0724AAD430A04FB37 /* ListenerCaller.cpp in Sources */,
+				F615E08CB4AC798B8A065795 /* return_one_two.cpp in Sources */,
+				6251E068E10AA2655DDCFD3F /* reverse_client_interface_impl.cpp in Sources */,
+				4ABC4137CB34A8791CE16F6F /* test_helpers.cpp in Sources */,
+				7EF09CFDB60527B59130DF60 /* TranslateDuration.cpp in Sources */,
+				DF4FE3F3896075DABF9852FF /* wchar_test_helpers.cpp in Sources */,
+				42B3B5419112C5B53409660B /* lib1.cpp in Sources */,
+				B1DF04A875912F2A45184AD0 /* program.cpp in Sources */,
+				C094EC226C047A9593C27638 /* cppfile.cpp in Sources */,
+				1E531109178601D6B3D8F3F5 /* cppfile_withcflags.cpp in Sources */,
+				144962A8574EECCDC7BCBA23 /* hello.cpp in Sources */,
+				96067A3552BEBE74646436DE /* hello.cpp in Sources */,
+				D36247BECCC4DA552C684947 /* hello_mac.cpp in Sources */,
+				276E165972580597B872E97D /* hello.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1C30C246AC5947898E285B38 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5F596982DFF3EEC7B69AA83 /* librncpp_jni */;
+			targetProxy = 9CC448F9DA7774096A17C2D3 /* PBXContainerItemProxy */;
+		};
+		31652D4746E75D9DA6EBB698 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = djinni_jni;
+			targetProxy = A6FA0DB92C7E59467060BE0D /* PBXContainerItemProxy */;
+		};
+		E0A0916268F225785129EE8B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D34D3826C00C4210E67B50D5 /* librncpp_objc */;
+			targetProxy = 5482B25B30FEFCCB4A01CE29 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0ABA7A8FD73C7D11614F7180 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++11";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				DEAD_CODE_STRIPPING = YES;
+				EXECUTABLE_PREFIX = lib;
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				HEADER_SEARCH_PATHS = (
+					../../djinni_build/objc,
+					../../djinni_build/cpp,
+					../cpp,
+					"../third_party/djinni/support-lib/objc",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "-Wall";
+				OTHER_CPLUSPLUSFLAGS = "-Wall";
+				PRODUCT_NAME = rncpp_objc;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+			};
+			name = Debug;
+		};
+		4649356EE7CD7ED132D1DE00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++11";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				DEAD_CODE_STRIPPING = YES;
+				EXECUTABLE_PREFIX = lib;
+				GCC_PREPROCESSOR_DEFINITIONS = "NDEBUG=1";
+				HEADER_SEARCH_PATHS = (
+					../../djinni_build/jni,
+					../../djinni_build/cpp,
+					../cpp,
+					"../third_party/djinni/support-lib/jni",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_CFLAGS = "-Wall";
+				OTHER_CPLUSPLUSFLAGS = "-Wall";
+				PRODUCT_NAME = rncpp_jni;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+			};
+			name = Release;
+		};
+		718428AA77BA7C1365F442B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = All;
+			};
+			name = Debug;
+		};
+		867F0DF69BD6A15D3E5064B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INTERMEDIATE_DIR = "$(PROJECT_DERIVED_FILE_DIR)/$(CONFIGURATION)";
+				SHARED_INTERMEDIATE_DIR = "$(SYMROOT)/DerivedSources/$(CONFIGURATION)";
+			};
+			name = Release;
+		};
+		9976354557EF0F7CECB3AA52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++11";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				DEAD_CODE_STRIPPING = YES;
+				EXECUTABLE_PREFIX = lib;
+				GCC_PREPROCESSOR_DEFINITIONS = "NDEBUG=1";
+				HEADER_SEARCH_PATHS = (
+					../../djinni_build/objc,
+					../../djinni_build/cpp,
+					../cpp,
+					"../third_party/djinni/support-lib/objc",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_CFLAGS = "-Wall";
+				OTHER_CPLUSPLUSFLAGS = "-Wall";
+				PRODUCT_NAME = rncpp_objc;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+			};
+			name = Release;
+		};
+		B7F2F887BE49639C3BD4161F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++11";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				DEAD_CODE_STRIPPING = YES;
+				EXECUTABLE_PREFIX = lib;
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				HEADER_SEARCH_PATHS = (
+					../../djinni_build/jni,
+					../../djinni_build/cpp,
+					../cpp,
+					"../third_party/djinni/support-lib/jni",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "-Wall";
+				OTHER_CPLUSPLUSFLAGS = "-Wall";
+				PRODUCT_NAME = rncpp_jni;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+			};
+			name = Debug;
+		};
+		CA78A39F4AAEBA1B3CD52165 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = All;
+			};
+			name = Release;
+		};
+		D2C1FFB8BD926E0E8D9627AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INTERMEDIATE_DIR = "$(PROJECT_DERIVED_FILE_DIR)/$(CONFIGURATION)";
+				SHARED_INTERMEDIATE_DIR = "$(SYMROOT)/DerivedSources/$(CONFIGURATION)";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2F2D125F32545A491B42F1E0 /* Build configuration list for PBXAggregateTarget "All" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				718428AA77BA7C1365F442B4 /* Debug */,
+				CA78A39F4AAEBA1B3CD52165 /* Release */,
+			);
+			defaultConfigurationIsVisible = 1;
+			defaultConfigurationName = Debug;
+		};
+		2F9756015854D30DC53313BC /* Build configuration list for PBXNativeTarget "librncpp_jni" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7F2F887BE49639C3BD4161F /* Debug */,
+				4649356EE7CD7ED132D1DE00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 1;
+			defaultConfigurationName = Debug;
+		};
+		C96521FA9D129338CB453747 /* Build configuration list for PBXNativeTarget "librncpp_objc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0ABA7A8FD73C7D11614F7180 /* Debug */,
+				9976354557EF0F7CECB3AA52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 1;
+			defaultConfigurationName = Debug;
+		};
+		FE5DF99389621AB581926BFD /* Build configuration list for PBXProject "librncpp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2C1FFB8BD926E0E8D9627AC /* Debug */,
+				867F0DF69BD6A15D3E5064B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 1;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C9948D7DFB26CD6C9F3C2017 /* Project object */;
+}
