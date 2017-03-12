@@ -1,6 +1,6 @@
 # React Native C++
 
-React Native with C++.
+React Native and C++ with [Djinni](https://github.com/dropbox/djinni).
 
 ## TL;DR
 
@@ -8,6 +8,7 @@ React Native with C++.
 git clone --recursive git@github.com:MathieuDebit/ReactNativeCPP.git
 cd ReactNativeCPP
 npm install
+npm run djinni
 
 react-native run ios
 react-native run-android
