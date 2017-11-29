@@ -1,7 +1,7 @@
 # we specify a root target for android to prevent all of the targets from spidering out
 ./ios/librncpp.xcodeproj: ./src/lib/librncpp.gyp ./src/third_party/djinni/support-lib/support_lib.gyp ./src/djinni/helloworld.djinni
 	npm run djinni
-	src/third_party/gyp/gyp --depth=. -f xcode -DOS=ios --generator-output ./ios -Isrc/third_party/djinni/common.gypi ./src/lib/librncpp.gyp
+	src/third_party/gyp/gyp --depth=. -f xcode -DOS=ios --generator-output ./ios -Isrc/third_party/djinni/common.gypi ./src/lib/librncpp.gyp --no-duplicate-basename-check
 
 ios: ./ios/librncpp.xcodeproj
 	xcodebuild -project ios/ReactNativeCPP.xcodeproj \
